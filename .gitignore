@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# HuggingFace / dataset caches
+.cache/
+**/.cache/huggingface/
+data/lung-cancer-dataset/.cache/
+data/lung-cancer-dataset/.cache/huggingface/
+data/lung-cancer-dataset/.cache/huggingface/download/
+data/lung-cancer-dataset/.cache/huggingface/trees/
+
+# Dataset itself (hosted on Hugging Face, not pushed here)
+data/lung-cancer-dataset/Data-20240107T052410Z-001.zip
+data/lung-cancer-dataset/processed/
+data/lung-cancer-dataset/raw/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
